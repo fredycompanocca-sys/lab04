@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 
 @Composable
 fun EjemploSwitch() {
-    // Comentario de Fredy - versión A
+    // Comentario de Fredy - versión A y B combinadas
     var activo by remember { mutableStateOf(false) }
     Switch(
         checked = activo,
